@@ -7,6 +7,14 @@ Rendering of tracked body.
 Under-the-hood joint hierarchy remapping/reassembly to meet WebXR specified joint order.
 Joint debugger for locating mapping errors. 
 
+Before you start:
+
+It is important to be sure that your app is requesting WebXR body-tracking by enabling the feature request in Wonderland Editor.
+To do this, open the project settings tab, then open the 'Runtime' dropdown.
+In either the 'Required WebXR Features' or 'Optional WebXR Features' coulomb, check body-tracking(if listed).
+If body-tracking is not listed, enter 'body-tracking' in the text field below either coulomb. The coulomb you chose will reflect
+weather your app necessitates body-tracking for the experience or if it is simply an added feature.
+
 How-To:
 
 The use of the WLE body-tracking component follows the implementation instructions of all Wonderland Engine custom components.

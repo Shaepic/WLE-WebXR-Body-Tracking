@@ -1,2 +1,1 @@
-Shaepic body-tracking component and CCOM are Freeware.
-Attribute if you wish!
+Shaepic body-tracking component and CCOM are MIT
